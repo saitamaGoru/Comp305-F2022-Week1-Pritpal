@@ -218,8 +218,9 @@ GameObject:
   - component: {fileID: 852476144}
   - component: {fileID: 852476143}
   - component: {fileID: 852476142}
-  - component: {fileID: 852476146}
+  - component: {fileID: 852476148}
   - component: {fileID: 852476145}
+  - component: {fileID: 852476147}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -285,8 +286,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 25161483
-  m_SortingLayer: 2
+  m_SortingLayerID: -212690323
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 72de0c64f2c6a498096698322c976a67, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -330,7 +331,21 @@ CapsuleCollider2D:
   m_Offset: {x: -0.07568544, y: -0.18164521}
   m_Size: {x: 1.3056449, y: 1.6992096}
   m_Direction: 0
---- !u!50 &852476146
+--- !u!114 &852476147
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 852476141}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21473e0de1ba2f94ba86205a40f16173, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 2
+  renderer: {fileID: 852476143}
+--- !u!50 &852476148
 Rigidbody2D:
   serializedVersion: 4
   m_ObjectHideFlags: 0
